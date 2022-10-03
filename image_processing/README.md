@@ -2,11 +2,11 @@
 
 Description.
 The package image_processing can be used to:
-    Processing images:
+    Processing images.
         - Histrogram matching
         - Structural similarity
         - Resize image
-    Utils:
+    Utils.
         - Read image
         - Save image
         - Plot image
@@ -20,13 +20,7 @@ The package image_processing can be used to:
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
 
-<<<<<<< Updated upstream
-*** bash
-pip install image_processing
-=======
->>>>>>> Stashed changes
-***
-bash
+***bash
 pip install image-processing-barbara
 ***
 ## Pypi link
