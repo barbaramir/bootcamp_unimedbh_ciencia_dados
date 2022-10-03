@@ -24,7 +24,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package
 pip install image-processing-barbara
 ***
 ## Pypi link
-[Ckick here](https://pypi.org/project/image-processing-barbara/) 
+[Click here](https://pypi.org/project/image-processing-barbara/) 
 
 ## Author
 Karina
