@@ -17,7 +17,7 @@ The package image_processing can be used to:
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
 
-***bash
+*** bash
 pip install image_processing
 ***
 
