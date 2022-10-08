@@ -7,3 +7,5 @@ A base de dados intitulada **Diabetics prediction using logistic regression** fo
 Os dados utilizados fazem parte do Banco de Dados de Diabetes dos índios Pima, sendo os pacientes analisados mulheres com 21 anos ou mais pertencentes à herança dos índios Pima (subgrupo de nativos americanos). Os dados foram coletados e disponibilizados pelo “Instituto Nacional de Diabetes e Doenças Digestivas e Renais”. 
 
 O objetivo desse projeto é caracterizar graficamente o perfil das mulheres participantes do estudo, extraindo informações estatísticas.
+
+A compilação do estudo encontra-se no arquivo **diabetics.ipynb**. 
