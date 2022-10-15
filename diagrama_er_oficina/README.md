@@ -3,7 +3,7 @@
 ## Objetivo:
 Cria o esquema conceitual para o contexto de oficina com base na narrativa fornecida.
 
-Nesse exercício decidi ir além do esquema conceitual e elaborar um diagrama entidade relacionamento a fim de aplicar em maior totalidade os conceitos apresentados durante as aulas.
+-> Nesse exercício decidi ir além do esquema conceitual e elaborar um diagrama entidade relacionamento a fim de aplicar em maior totalidade os conceitos apresentados durante as aulas.
 
 ## Narrativa:
 Sistema de controle e gerenciamento de execução de ordens de serviço em uma oficina mecânica
