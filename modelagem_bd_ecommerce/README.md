@@ -10,7 +10,7 @@ O diagrama revisado encontra-se na imagem abaixo:
 ![bd_revisado](https://user-images.githubusercontent.com/101302079/197658350-e3851a2c-8399-4d18-b0da-a70f1c09f982.png)
 
 ### Passo 2
-O segundo passo se deu com a modelagem das tabelas do banco de dados definidas na montagem do esquema, disponível neste arquivo <>. Em resumo, as tabelas criadas foram: 
+O segundo passo se deu com a modelagem das tabelas do banco de dados definidas na montagem do esquema, disponível neste [arquivo](https://github.com/barbaramir/bootcamp_unimedbh_ciencia_dados/blob/main/modelagem_bd_ecommerce/tables_ecommerce.sql). Em resumo, as tabelas criadas foram: 
 - clients - Identificação dos clientes 
 - legalperson - Identificação das Pessoas Jurídicas Vendedor / Fornecedor
 - orders - Pedidos Realizados
@@ -25,10 +25,10 @@ O segundo passo se deu com a modelagem das tabelas do banco de dados definidas n
 - supplier - Fornecedores Cadastrados
 
 ### Passo 3
-No terceiro passo foram inseridos alguns dados fictícios para população do banco de dados e execução das consultas. A persistência dos dados encontra-se detalhada neste arquivo <>.
+No terceiro passo foram inseridos alguns dados fictícios para população do banco de dados e execução das consultas. A persistência dos dados encontra-se detalhada neste [arquivo](https://github.com/barbaramir/bootcamp_unimedbh_ciencia_dados/blob/main/modelagem_bd_ecommerce/data_ecommerce.sql).
 
 ### Passo 4 
-Realização de algumas queries de consulta ao banco de dados e cruzamento de informações. Os resultados obtidos encontram-se detalhados neste arquivo <> e as perguntas realizadas foram resumidas nas imagens abaixo. 
+Realização de algumas queries de consulta ao banco de dados e cruzamento de informações. Os resultados obtidos encontram-se detalhados neste [arquivo](https://github.com/barbaramir/bootcamp_unimedbh_ciencia_dados/blob/main/modelagem_bd_ecommerce/queries_ecommerce.sql) e as perguntas realizadas foram resumidas nas imagens abaixo. 
 
 - Número de pedidos realizados em 2022, até o momento: 
 ![image](https://user-images.githubusercontent.com/101302079/197660369-8f79d7d8-b55c-45b0-9b0d-034afeca75a7.png)
