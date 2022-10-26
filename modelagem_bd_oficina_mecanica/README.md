@@ -10,7 +10,7 @@ O diagrama revisado encontra-se na imagem abaixo:
 ![esquema](https://user-images.githubusercontent.com/101302079/197908288-e60a0bfb-70cf-4ce8-9913-1ef7ba5fe659.png)
 
 ### Passo 2
-O segundo passo se deu com a modelagem das tabelas do banco de dados definidas na montagem do esquema, disponível neste [arquivo](). Em resumo, as tabelas criadas foram: 
+O segundo passo se deu com a modelagem das tabelas do banco de dados definidas na montagem do esquema, disponível neste [arquivo](https://github.com/barbaramir/bootcamp_unimedbh_ciencia_dados/blob/main/modelagem_bd_oficina_mecanica/tables.sql). Em resumo, as tabelas criadas foram: 
 - Clients - Identificação dos clientes 
 - Vehicles - Identificação dos veículos 
 - Employee - Identificação dos funcionários 
@@ -22,10 +22,10 @@ O segundo passo se deu com a modelagem das tabelas do banco de dados definidas n
 - Service_Employee - Funcionário responsável pela execução de cada serviço
 
 ### Passo 3
-No terceiro passo foram inseridos alguns dados fictícios para população do banco de dados e execução das consultas. A persistência dos dados encontra-se detalhada neste [arquivo]().
+No terceiro passo foram inseridos alguns dados fictícios para população do banco de dados e execução das consultas. A persistência dos dados encontra-se detalhada neste [arquivo](https://github.com/barbaramir/bootcamp_unimedbh_ciencia_dados/blob/main/modelagem_bd_oficina_mecanica/data.sql).
 
 ### Passo 4 
-Realização de algumas queries de consulta ao banco de dados e cruzamento de informações. Os resultados obtidos encontram-se detalhados neste [arquivo]() e as perguntas realizadas foram resumidas nas imagens abaixo. 
+Realização de algumas queries de consulta ao banco de dados e cruzamento de informações. Os resultados obtidos encontram-se detalhados neste [arquivo](https://github.com/barbaramir/bootcamp_unimedbh_ciencia_dados/blob/main/modelagem_bd_oficina_mecanica/queries.sql) e as perguntas realizadas foram resumidas nas imagens abaixo. 
 
 - Relação de veículos por cliente:
 ![image](https://user-images.githubusercontent.com/101302079/197909055-4472a02a-0b56-4b71-a4f1-eebfb746db1f.png)
