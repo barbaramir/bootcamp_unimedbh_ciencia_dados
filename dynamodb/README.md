@@ -70,6 +70,7 @@ Visualização da tabela no AWS Console:
 ![6mn](https://user-images.githubusercontent.com/101302079/198855739-bd65e3a3-8ff8-4ab2-b7b2-464247ed9173.png)
 
 Visualizando os índices no console: 
+
 ![6nh](https://user-images.githubusercontent.com/101302079/198855755-6494355e-901b-43c6-aef7-456a81e0e1c9.PNG)
 
 ### 7. Pesquisar item por artista
