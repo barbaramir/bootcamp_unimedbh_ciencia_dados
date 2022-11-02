@@ -34,7 +34,7 @@ Neste módulo do curso **Explorando Dados Demográficos com Serviços de Big Dat
 - Criar visualizações selecionando colunas, criando filtros e parâmetros e selecionando Visual types para gráficos.
 
 ### Queries realizadas
-As queries realizadas na aplicação Amazon Athena estão disponibilizadas neste [link]() em formato .csv para download. Abaixo foram inseridas, em resumo, imagens que demonstram a montagem das queries e os resultados obtidos. 
+As queries realizadas na aplicação Amazon Athena estão disponibilizadas neste [link](https://github.com/barbaramir/bootcamp_unimedbh_ciencia_dados/tree/main/exploring_athena_and_quicksight_aws/queries_csv) em formato .csv para download. Abaixo foram inseridas, em resumo, imagens que demonstram a montagem das queries e os resultados obtidos. 
 
 * Query População Total
 ![1](https://user-images.githubusercontent.com/101302079/199558560-98ccc256-8262-4b39-89cf-37e394ef1a8e.PNG)
