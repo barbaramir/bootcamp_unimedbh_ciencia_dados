@@ -50,3 +50,11 @@ As queries realizadas na aplicação Amazon Athena estão disponibilizadas neste
 
 * Query População Cidade de São Paulo 
 ![2](https://user-images.githubusercontent.com/101302079/199559682-1697c34f-4b22-454f-b7f5-e651abb36ce1.PNG)
+
+### Visualização no QuickSight
+Para exercitar a visualização dos dados na ferramenta QuickSight foram elaborados três gráficos de diferentes tipos: 
+- Ranking das 10 cidades mais populosas do Brasil
+- Distribuição da população brasileira por região
+- Distribuição da população dentro da região Sudeste
+
+![population](https://user-images.githubusercontent.com/101302079/199560483-ddbe85e4-fd11-4a47-a27e-904ac2e75bc5.PNG)
