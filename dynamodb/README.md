@@ -73,36 +73,68 @@ Visualizando os índices no console:
 
 ![6nh](https://user-images.githubusercontent.com/101302079/198855755-6494355e-901b-43c6-aef7-456a81e0e1c9.PNG)
 
-### 7. Pesquisar item por artista
+### 7. Pesquisar item por artista "Iron Maiden":
+
+Via terminal: 
+    
     aws dynamodb query \
         --table-name Music \
         --key-condition-expression "Artist = :artist" \
         --expression-attribute-values  '{":artist":{"S":"Iron Maiden"}}'
+     
+Via Console AWS: 
+![git7](https://user-images.githubusercontent.com/101302079/199550320-898fdc86-b8e8-4cbd-b991-ecdf4275b8c8.PNG)
+
         
-### 8. Pesquisar item por artista e título da música
+### 8. Pesquisar item por artista "Iron Maiden" e título da música "Weekend Warrior":
+
+Via terminal: 
+
     aws dynamodb query \
         --table-name Music \
         --key-condition-expression "Artist = :artist and SongTitle = :title" \
         --expression-attribute-values file://keyconditions.json
         
-### 9. Pesquisa pelo index secundário baseado no título do álbum
+Via Console AWS:        
+![git8](https://user-images.githubusercontent.com/101302079/199551081-a6de7a1c-b3f6-4f9c-be8f-63325132bc40.PNG)
+        
+### 9. Pesquisa pelo index secundário baseado no título do álbum "Fear of the Dark": 
+
+Via terminal: 
+
     aws dynamodb query \
         --table-name Music \
         --index-name AlbumTitle-index \
         --key-condition-expression "AlbumTitle = :name" \
         --expression-attribute-values  '{":name":{"S":"Fear of the Dark"}}'
 
-### 10. Pesquisa pelo index secundário baseado no nome do artista e no título do álbum
+Via Console AWS: 
+![git9](https://user-images.githubusercontent.com/101302079/199551446-794ac232-e6be-49ef-b4e9-2cd74cc5e2bf.PNG)
+
+
+### 10. Pesquisa pelo index secundário baseado no nome do artista "Iron Maiden" e no título do álbum "Fear of the Dark":
+
+Via terminal:
+
     aws dynamodb query \
         --table-name Music \
         --index-name ArtistAlbumTitle-index \
         --key-condition-expression "Artist = :v_artist and AlbumTitle = :v_title" \
         --expression-attribute-values  '{":v_artist":{"S":"Iron Maiden"},":v_title":{"S":"Fear of the Dark"} }'
         
-### 11. Pesquisa pelo index secundário baseado no título da música e no ano
+Via Console AWS: 
+![git10](https://user-images.githubusercontent.com/101302079/199551777-26e92834-650f-47bf-9920-922051fcd09b.PNG)
+        
+### 11. Pesquisa pelo index secundário baseado no título da música "Wasting Love" e no ano "1992":
+
+Via terminal:
+
     aws dynamodb query \
         --table-name Music \
         --index-name SongTitleYear-index \
         --key-condition-expression "SongTitle = :v_song and SongYear = :v_year" \
         --expression-attribute-values  '{":v_song":{"S":"Wasting Love"},":v_year":{"S":"1992"} }'
+
+Via Console AWS: 
+![git11](https://user-images.githubusercontent.com/101302079/199551980-2b4da507-8c98-4aec-9eb9-ed24d633994c.PNG)
 
